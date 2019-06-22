@@ -1,0 +1,76 @@
+
+@media (min-width:1300px) {
+    .container {
+        max-width:1300px;
+    }
+}
+
+.breadcrumb {
+    background-color: rgba(233, 236, 239, 0);
+}
+.breadcrumb-item + .breadcrumb-item::before {
+     content:">";
+ }
+/*.btn-bs{*/
+    /*height:20px;width: 150px;*/
+    /*line-height: 20px;*/
+/*}*/
+a{
+    color: #000000;
+}
+.my-pb{
+    padding:0 0 44px 0;
+}
+.my-border{
+    border:1px solid rgba(85, 85, 85, 0.28);
+}
+.outer2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*设置成弹性盒子 */
+    display: -webkit-box;
+    /*显示的个数 */
+    -webkit-line-clamp: 2;
+    /* 属性规定框的子元素应该被水平或垂直排列。 */
+    -webkit-box-orient: vertical;
+}
+.outer1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*设置成弹性盒子 */
+    display: -webkit-box;
+    /*显示的个数 */
+    -webkit-line-clamp: 1;
+    /* 属性规定框的子元素应该被水平或垂直排列。 */
+    -webkit-box-orient: vertical;
+}
+@media (max-width: 991px) {
+.mediaHf{
+    display: none;
+}
+}
+@media (max-width: 991px) {
+    .mediaHf{
+        display: none;
+    }
+}
+.size-color1{
+    color:#fff;
+}
+.size-color1:hover{
+    background: #fff;
+    color:#000;
+    text-decoration: none;
+    border:1px solid #000;
+}
+.my_money1{
+    width:55%;
+    height:36px;
+    line-height:36px;
+    background:#000;
+}
+@media (min-width: 991px) {
+    .hide1{
+        display: none;
+    }
+}

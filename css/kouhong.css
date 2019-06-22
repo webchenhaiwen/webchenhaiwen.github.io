@@ -1,0 +1,141 @@
+
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+.my_border{
+    border:1px solid #000;
+}
+.size-color{
+    color:#000;
+}
+.size-color:hover{
+    color:#000;
+}
+.size-color2{
+    color:#000;
+}
+.size-color2:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content:">";
+}
+.li_border{
+    border:2px solid #999;
+}
+.my_input_w{width:2rem;}
+.my_money{
+    width:25%;
+    height:36px;
+    line-height:36px;
+    background:#232323;
+}
+.my_money1{
+    width:33.33%;
+    height:36px;
+    line-height:36px;
+    background:#000;
+}
+
+.imgdql{
+    transition:1s;
+}
+
+
+.imgdql:hover{
+    transform:scale(1.1);
+}
+
+.my_border1{
+    width:100%;
+    height:2.5rem;
+    line-height:2.5rem ;
+
+}
+.my_border2{
+    border: 1px solid #000;
+    height:2.5rem;
+    line-height:2.5rem ;
+}
+.my_border2:hover{
+    background-color: #000;
+    color:#999;
+}
+
+.card{
+    width: 100%;
+}
+
+
+@media (max-width:767px) {
+    .media1{display: none;}
+
+}
+@media (max-width:767px) {
+    .media-favor3{display: none;}
+
+}
+@media (max-width:767px) {
+    .media2{
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .my_sm_display{
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    .my_lg_display{
+        display: none;
+    }
+}
+.size-color1{
+    color:#fff;
+}
+.size-color1:hover{
+    background: #fff;
+    color:#000;
+    text-decoration: none;
+    border:1px solid #000;
+}
+@media (max-width:767px) {
+.t-sm-center {
+    text-align: center;
+}
+}
+@media (max-width:767px) {
+.t-sm-center1 {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+}
+/*@media (min-width:768px) {*/
+    /*.touch1:hover{*/
+        /**/
+    /*}*/
+/*}*/
