@@ -8,17 +8,17 @@
 
 @media (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 767px;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
     .container {
-        max-width: 1000px;
+        max-width: 991px;
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1301px) {
     .container {
         max-width: 1300px;
     }
@@ -139,3 +139,73 @@
         /**/
     /*}*/
 /*}*/
+
+a{
+    color: #000000;
+    text-decoration:none ;
+}
+
+.shop .iconfiont{
+    font-family: "iconfont" !important;
+    font-size: 35px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+@media (min-width:768px) {
+.light-color:hover {
+   opacity: 0.6;
+}}
+
+@media(min-width:768px) {
+    .light-color-top{
+        display: none;
+    }
+}
+@media(max-width:767px) {
+    .small-button-hide{
+        display: none;
+    }
+}
+.mt-t1{
+    width:70%;
+    height:40px;
+    line-height:40px;
+    background-color: #000;
+    color:#fff;
+    margin:auto;
+}
+
+.mt-t2{
+    width:70%;
+    height:40px;
+    line-height:40px;
+    background-color: #fff;
+    color:#000;
+    margin:auto;
+}
+.size-color3:hover{
+    background-color: #fff;
+    color:#000;
+}
+.size-color4{
+    color:#fff;
+}
+.size-color4:hover{
+    color:#000;
+    text-decoration: none;
+
+}
+.size-color5{
+    color:#000;
+}
+.size-color5:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.size-color6:hover{
+    background-color: #000;
+    color:#fff;
+}
